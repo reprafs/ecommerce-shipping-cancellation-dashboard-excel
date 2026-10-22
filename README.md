@@ -229,23 +229,23 @@ Cancellation
 
 1. How much is the total shipping cost, and who pays for it?
 
-   What we got: Total shipping cost is Rp312,66 million. Buyers paid Rp88,61 million and the discount is Rp224,15 million. So about 72% of shipping cost is paid by discount.
+   Total shipping cost is Rp312,66 million. Buyers paid Rp88,61 million and the discount is Rp224,15 million. So about 72% of shipping cost is paid by discount.
 
 2. What is the trend of net shipping profit each month?
 
-   What we got: Net shipping profit is highest in Sep (Rp8,87 million), Jan (Rp8,60 million), and Aug (Rp8,45 million). It is lowest in Jun (Rp5,08 million) and Apr (Rp5,70 million). The pattern follows the number of orders.
+   Net shipping profit is highest in Sep (Rp8,87 million), Jan (Rp8,60 million), and Aug (Rp8,45 million). It is lowest in Jun (Rp5,08 million) and Apr (Rp5,70 million). The pattern follows the number of orders.
 
 3. Does more orders mean more shipping discount?
 
-   What we got: Yes, more orders usually means more discount. The discount rate is around 64% in Jan, Mar, and May, then goes up to around 78% in Oct and Nov when orders reach 2,152 (Oct). In Dec orders drop to 1,402 and the discount rate drops to 69,6%.
+   Yes, more orders usually means more discount. The discount rate is around 64% in Jan, Mar, and May, then goes up to around 78% in Oct and Nov when orders reach 2,152 (Oct). In Dec orders drop to 1,402 and the discount rate drops to 69,6%.
 
 4. Which courier depends on discount the most?
 
-   What we got: GrabExpress depends on discount the most (80,51%), then SPX (74,13%). Gosend is the lowest (46,73%). JNT is 53,75% and JNE is 57,32%.
+   GrabExpress depends on discount the most (80,51%), then SPX (74,13%). Gosend is the lowest (46,73%). JNT is 53,75% and JNE is 57,32%.
 
 5. Which province has the most expensive shipping per order?
 
-   What we got: Eastern Indonesia is the most expensive. Papua Barat is Rp123.000, Papua is Rp115.000, then Maluku Utara (Rp94.644), NTT (Rp92.533), and Sulawesi Tenggara (Rp91.816).
+   Eastern Indonesia is the most expensive. Papua Barat is Rp123.000, Papua is Rp115.000, then Maluku Utara (Rp94.644), NTT (Rp92.533), and Sulawesi Tenggara (Rp91.816).
 
 Other insight:
 - The discount rate is above 64% in every month, so the platform always pays most of the shipping cost.
@@ -263,27 +263,27 @@ Action:
 
 1. How big is the cancellation problem?
 
-   What we got: From 20.869 orders, 2.833 are cancelled. The cancellation rate is 13,58%, around 1 in 7 orders.
+   From 20.869 orders, 2.833 are cancelled. The cancellation rate is 13,58%, around 1 in 7 orders.
 
 2. Is there a pattern by month?
 
-   What we got: The rate goes up from 13% in Jan to the peak of 18% in Apr-May. It goes down to 11% in Oct-Nov, then goes up again to 16% in Dec.
+   The rate goes up from 13% in Jan to the peak of 18% in Apr-May. It goes down to 11% in Oct-Nov, then goes up again to 16% in Dec.
 
 3. Which payment method has the highest cancellation rate?
 
-   What we got: Online Payment is the highest (18,56%), then SPayLater (14,92%). Saldo ShopeePay is the lowest (8,74%). Others are around 13%.
+   Online Payment is the highest (18,56%), then SPayLater (14,92%). Saldo ShopeePay is the lowest (8,74%). Others are around 13%.
 
 4. What is the main reason for cancellation?
 
-   What we got: The top reasons are Ubah pesanan (787) and Berubah pikiran (706). They are much higher than Masalah pembayaran (482), Masalah pengiriman (277), and Masalah penjual (223).
+   The top reasons are Ubah pesanan (787) and Berubah pikiran (706). They are much higher than Masalah pembayaran (482), Masalah pengiriman (277), and Masalah penjual (223).
 
 5. Does the time of day affect cancellation?
 
-   What we got: Malam is the highest (14,13%). Siang (13,25%) and Sore (13,27%) are the lowest. The difference is only about 1 point, so time of day is not a big factor.
+   Malam is the highest (14,13%). Siang (13,25%) and Sore (13,27%) are the lowest. The difference is only about 1 point, so time of day is not a big factor.
 
 6. Who starts the cancellation the most?
 
-   What we got: Buyer starts 1.914 cancellations (67,56%) and system starts 905 (about 32%).
+   Buyer starts 1.914 cancellations (67,56%) and system starts 905 (about 32%).
 
 Other insight:
 - Most cancellations come from buyer behavior (changing the order or changing their mind), not from seller or delivery problems.
