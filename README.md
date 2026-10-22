@@ -56,21 +56,23 @@ Since we see there are shipping columns and cancellation columns in the data, I 
 - Download the raw folder. It has 24 xlsx files, all with the same format.
 - Open Excel, go to Data > Get Data > Blank Query.
 - Excel for Mac cannot open a folder directly, so I made the folder path first:
+photos/foto2.png
   - Go to Developer > Visual Basic and write the path there.
   - Check the result in the Immediate window.
   - Grant access to the folder when Excel asks.
+    
 
-(Add screenshot: Foto2, Foto3 - Visual Basic and Immediate window)
-(Add screenshot: Foto4 - grant access)
+photos/foto4.png
 
 - Go back to the blank query and type this (use your own path):
 
+photos/foto5.png
 ```
 Folder.Files("your folder path here")
 ```
 
-(Add screenshot: Foto5, Foto6)
 
+photos/foto6.png
 
 - Because all 24 files have the same format, click Combine > Combine Files, check the sheet, and continue.
 - Check missing values (null) and data types.
@@ -81,9 +83,12 @@ Folder.Files("your folder path here")
 
 **Fix duplicate order ID**
 
+photos/foto7.png
+photos/foto8.png
+
 Some order IDs are duplicated because each row has a different product category, and quantity is split too. Fix: group by order ID, join all category text, and sum the quantity. So 1 row = 1 order.
 
-(Add screenshot: Foto7, Foto8)
+
 
 **Change formats**
 
@@ -195,7 +200,7 @@ else "Lainnya"
 
 Remove the columns that are already cleaned, then reorder the columns.
 
-(Add screenshot: Foto9 - final table after query)
+photos/foto9.png
 
 Result: 20,869 unique orders (2,833 cancelled, 18,036 not cancelled).
 
@@ -226,7 +231,7 @@ Cancellation
 
 **Shipping Dashboard**
 
-(Add screenshot: Foto10)
+photos/foto10.png
 
 Answers to the questions:
 
@@ -238,9 +243,14 @@ Answers to the questions:
 
 Insight: shipping profit depends on the number of orders, and the discount is higher when orders are high. Some couriers and far provinces cost much more.
 
+Recommendation:
+- Review the cooperation with GrabExpress and SPX because their discount share is the highest.
+- Set a discount limit or a special rate for Papua and Maluku.
+- Control the discount in peak months (Oct-Nov) so it does not hurt the margin too much.
+
 **Order Cancellation Dashboard**
 
-(Add screenshot: Foto11)
+photos/foto11.png
 
 Answers to the questions:
 
@@ -253,16 +263,10 @@ Answers to the questions:
 
 Insight: most cancellations come from buyer behavior (changing the order or changing their mind), not from seller or delivery problems.
 
----
-
-**6. Act (Recommendations)**
-
-Shipping
-- Review the cooperation with GrabExpress and SPX because their discount share is the highest.
-- Set a discount limit or a special rate for Papua and Maluku.
-- Control the discount in peak months (Oct-Nov) so it does not hurt the margin too much.
-
-Cancellation
+Recommendation
 - Let buyers edit the order (address, voucher, variation) without cancelling.
 - Improve the Online Payment flow, for example payment reminders and retry payment.
 - Prepare customer service and retention promos for Apr-May and Dec.
+---
+
+
